@@ -1,0 +1,705 @@
+<!doctype html>
+<html lang="tr" class="scroll-smooth">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>
+			Karaca Teknik Rulman | Endüstrinin Dönüş Gücü - Bilya, Kayış, Keçe
+			Çeşitleri
+		</title>
+
+		<meta
+			name="description"
+			content="Çorlu Organize Sanayi'de Karaca Rulman. FAG, SKF, ORS, TIMKEN orijinal oto ve sanayi rulmanları, bilya, kayış ve keçe çeşitleri. Hemen WhatsApp'tan fiyat alın!"
+		/>
+		<meta
+			name="keywords"
+			content="Karaca rulman, çorlu bilyacı, çorlu sanayi rulman, karaca rulman çorlu, oto rulman çorlu, bando kayış çorlu,karaca teknik rulman,"
+		/>
+
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script>
+			tailwind.config = {
+				theme: {
+					extend: {
+						colors: {
+							industry: {
+								50: "#f6f6f6",
+								100: "#e7e7e7",
+								200: "#d1d1d1",
+								300: "#b0b0b0",
+								400: "#888888",
+								500: "#6d6d6d",
+								600: "#5d5d5d",
+								700: "#4f4f4f",
+								800: "#454545",
+								900: "#3d3d3d",
+								950: "#1a1a1a", // Ana Koyu Arka Plan
+							},
+							steelOrange: {
+								400: "#fb923c",
+								500: "#f97316", // Vurgu Rengi
+								600: "#ea580c",
+							},
+						},
+					},
+				},
+			};
+		</script>
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Roboto:wght@400;500&display=swap"
+			rel="stylesheet"
+		/>
+
+		<style>
+			h1,
+			h2,
+			h3,
+			.brand-font {
+				font-family: "Montserrat", sans-serif;
+			}
+			body {
+				font-family: "Roboto", sans-serif;
+			}
+			.fade-in {
+				opacity: 0;
+				transform: translateY(30px);
+				transition: all 0.7s ease-out;
+			}
+			.fade-in.visible {
+				opacity: 1;
+				transform: translateY(0);
+			}
+			.gear-spin {
+				animation: spin 10s linear infinite;
+			}
+			@keyframes spin {
+				100% {
+					transform: rotate(360deg);
+				}
+			}
+		</style>
+	</head>
+	<body
+		class="bg-industry-50 text-industry-800 antialiased overflow-x-hidden"
+	>
+		<div
+			class="bg-industry-950 text-industry-300 py-2 text-xs hidden md:block border-b border-industry-800"
+		>
+			<div
+				class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center"
+			>
+				<div class="flex gap-6">
+					<span class="flex items-center gap-2">
+						<i
+							class="fa-solid fa-location-dot text-steelOrange-500"
+						></i>
+						Zafer Mahallesi, Çorlu/Tekirdağ
+					</span>
+					<span class="flex items-center gap-2">
+						<i
+							class="fa-solid fa-envelope text-steelOrange-500"
+						></i>
+						karacarulman@hotmail.com
+					</span>
+				</div>
+				<div class="flex items-center gap-4">
+					<span>
+						<i
+							class="fa-solid fa-clock text-steelOrange-500 mr-1"
+						></i>
+						Pzt-Cmt: 08:30 - 18:30
+					</span>
+				</div>
+			</div>
+		</div>
+
+		<nav
+			class="sticky top-0 z-50 bg-industry-950/95 backdrop-blur-md shadow-lg transition-all duration-300"
+		>
+			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+				<div class="flex items-center justify-between h-20">
+					<a href="#home" class="flex items-center gap-3 group">
+						<div class="text-steelOrange-500 text-3xl gear-spin">
+							<i class="fa-solid fa-gear"></i>
+						</div>
+						<div class="flex flex-col">
+							<span
+								class="text-2xl font-black tracking-widest text-white brand-font uppercase leading-none"
+								>KARACA TEKNİK</span
+							>
+							<span
+								class="text-sm font-semibold tracking-widest text-steelOrange-500 brand-font uppercase leading-none mt-1"
+								>Rulman</span
+							>
+						</div>
+					</a>
+
+					<div
+						class="hidden md:flex items-center gap-8 font-semibold text-industry-200 text-sm tracking-wide brand-font"
+					>
+						<a
+							href="#home"
+							class="hover:text-steelOrange-500 transition"
+							>ANASAYFA</a
+						>
+						<a
+							href="#about"
+							class="hover:text-steelOrange-500 transition"
+							>HAKKIMIZDA</a
+						>
+						<a
+							href="#products"
+							class="hover:text-steelOrange-500 transition"
+							>ÜRÜNLER</a
+						>
+						<a
+							href="#contact"
+							class="hover:text-steelOrange-500 transition"
+							>İLETİŞİM</a
+						>
+					</div>
+
+					<div class="hidden md:flex items-center">
+						<a
+							href="tel:+905072420647"
+							class="bg-steelOrange-500 hover:bg-steelOrange-600 text-white px-6 py-2.5 rounded font-bold transition shadow-lg flex items-center gap-2 brand-font"
+						>
+							<i class="fa-solid fa-phone-volume"></i> Bizi Arayın
+						</a>
+					</div>
+
+					<div class="md:hidden flex items-center">
+						<button
+							id="mobile-menu-btn"
+							class="text-industry-200 hover:text-steelOrange-500 focus:outline-none p-2"
+						>
+							<i class="fa-solid fa-bars text-3xl"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+
+			<div
+				id="mobile-menu"
+				class="hidden md:hidden bg-industry-900 border-t border-industry-800 absolute w-full left-0 shadow-2xl"
+			>
+				<div class="px-4 pt-2 pb-6 space-y-2 brand-font font-bold">
+					<a
+						href="#home"
+						class="mobile-link block px-3 py-3 text-industry-200 hover:bg-industry-800 hover:text-steelOrange-500 rounded"
+						>Anasayfa</a
+					>
+					<a
+						href="#about"
+						class="mobile-link block px-3 py-3 text-industry-200 hover:bg-industry-800 hover:text-steelOrange-500 rounded"
+						>Hakkımızda</a
+					>
+					<a
+						href="#products"
+						class="mobile-link block px-3 py-3 text-industry-200 hover:bg-industry-800 hover:text-steelOrange-500 rounded"
+						>Ürünler</a
+					>
+					<a
+						href="#contact"
+						class="mobile-link block px-3 py-3 text-industry-200 hover:bg-industry-800 hover:text-steelOrange-500 rounded"
+						>İletişim</a
+					>
+				</div>
+			</div>
+		</nav>
+
+		<section id="home" class="relative bg-industry-950 overflow-hidden">
+			<div class="absolute inset-0 z-0">
+				<img
+					src="assets/images/karaca-rulman-dukkan-dis-cephe-yakin.webp"
+					alt="Karaca Teknik Rulman Çorlu Mağazası"
+					class="w-full h-full object-cover object-top sm:object-center opacity-30 mix-blend-overlay"
+				/>
+				<div
+					class="absolute inset-0 bg-gradient-to-r from-industry-950 via-industry-950/90 sm:via-industry-950/80 to-transparent"
+				></div>
+			</div>
+
+			<div
+				class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 py-16 sm:py-24 lg:py-40 text-center lg:text-left"
+			>
+				<span
+					class="inline-block py-1 px-3 border border-steelOrange-500/50 bg-steelOrange-500/10 text-steelOrange-500 font-bold tracking-widest text-xs uppercase mb-6 rounded-sm"
+					>Premium Kalite Rulmanlar</span
+				>
+				<h1
+					class="text-4xl sm:text-5xl lg:text-7xl font-black text-white leading-tight uppercase"
+				>
+					Endüstrinin <br />
+					<span class="text-steelOrange-500">Dönüş Gücü</span>
+				</h1>
+				<p
+					class="mt-6 text-industry-300 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed"
+				>
+					Yüksek hassasiyetli, dayanıklı ve uzun ömürlü rulman
+					çözümleriyle makinelerinize hayat veriyoruz. Otomotivden
+					ağır sanayiye kadar her sektörde güvenilir tedarikçiniz.
+				</p>
+				<div
+					class="mt-8 sm:mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
+				>
+					<a
+						href="#products"
+						class="bg-steelOrange-500 hover:bg-steelOrange-600 text-white font-bold py-4 px-8 rounded uppercase tracking-wide transition shadow-lg shadow-steelOrange-500/30 brand-font"
+					>
+						Ürünlerimizi İncele
+					</a>
+					<a
+						href="#contact"
+						class="bg-transparent border-2 border-industry-400 hover:border-white text-white font-bold py-4 px-8 rounded uppercase tracking-wide transition brand-font"
+					>
+						Fiyat Teklifi Al
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<section
+			class="py-16 bg-industry-900 border-b border-industry-800 fade-in"
+		>
+			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+				<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+					<div class="flex items-start gap-4">
+						<div
+							class="w-14 h-14 rounded bg-industry-800 text-steelOrange-500 flex items-center justify-center text-2xl shrink-0 border border-industry-700"
+						>
+							<i class="fa-solid fa-shield-halved"></i>
+						</div>
+						<div>
+							<h3
+								class="text-white font-bold text-xl mb-2 brand-font"
+							>
+								Yüksek Dayanıklılık
+							</h3>
+							<p class="text-industry-400 text-sm">
+								Ağır yük ve yüksek devir koşullarında bile
+								maksimum performans gösteren çelik alaşımlar.
+							</p>
+						</div>
+					</div>
+					<div class="flex items-start gap-4">
+						<div
+							class="w-14 h-14 rounded bg-industry-800 text-steelOrange-500 flex items-center justify-center text-2xl shrink-0 border border-industry-700"
+						>
+							<i class="fa-solid fa-bullseye"></i>
+						</div>
+						<div>
+							<h3
+								class="text-white font-bold text-xl mb-2 brand-font"
+							>
+								Mikron Hassasiyeti
+							</h3>
+							<p class="text-industry-400 text-sm">
+								Sıfır titreşim ve sessiz çalışma için
+								uluslararası standartlarda milimetrik üretim
+								kalitesi.
+							</p>
+						</div>
+					</div>
+					<div class="flex items-start gap-4">
+						<div
+							class="w-14 h-14 rounded bg-industry-800 text-steelOrange-500 flex items-center justify-center text-2xl shrink-0 border border-industry-700"
+						>
+							<i class="fa-solid fa-boxes-stacked"></i>
+						</div>
+						<div>
+							<h3
+								class="text-white font-bold text-xl mb-2 brand-font"
+							>
+								Geniş Stok Ağı
+							</h3>
+							<p class="text-industry-400 text-sm">
+								Binlerce referans üründe anında teslimat ve
+								kesintisiz sanayi tedarik garantisi.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="about" class="py-24 bg-white fade-in">
+			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+				<div
+					class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center"
+				>
+					<div class="relative">
+						<div
+							class="absolute -inset-4 bg-industry-100 transform rotate-3 rounded-lg z-0"
+						></div>
+						<img
+							src="assets/images/karaca-rulman-dukkan-dis-cephe.webp"
+							alt="Karaca Teknik Rulman Çorlu Vitrin ve Mağaza İçi Ürünler"
+							class="relative z-10 w-full h-auto rounded-lg shadow-xl border-4 border-white grayscale hover:grayscale-0 transition duration-500"
+						/>
+
+						<div
+							class="absolute -bottom-6 -right-6 bg-industry-950 text-white p-6 rounded-lg shadow-2xl z-20 border-b-4 border-steelOrange-500"
+						>
+							<span
+								class="block text-4xl font-black text-steelOrange-500 brand-font mb-1"
+								>15+</span
+							>
+							<span
+								class="block text-sm font-bold uppercase tracking-wider"
+								>Yıllık Tecrübe</span
+							>
+						</div>
+					</div>
+
+					<div class="space-y-6">
+						<h2
+							class="text-3xl sm:text-4xl font-black text-industry-950 uppercase tracking-tight brand-font"
+						>
+							Makineleriniz Asla <br /><span
+								class="text-steelOrange-500"
+								>Yarı Yolda Kalmasın</span
+							>
+						</h2>
+						<p class="text-industry-600 text-lg leading-relaxed">
+							Karaca Teknik Rulman olarak, sanayinin kalbi olan
+							fabrikalardan, yollardaki otomobil ve motosikletlere
+							kadar harekete ihtiyaç duyan her sektörün
+							güvencesiyiz.
+						</p>
+						<p class="text-industry-600 leading-relaxed">
+							Amacımız sadece parça tedarik etmek değil;
+							işletmenizin üretim bantlarının durmamasını,
+							araçlarınızın yolda tekerinin tam güvenle dönmesini
+							sağlamaktır. Orijinal ürün garantisi ve uzman
+							kadromuzla yanınızdayız.
+						</p>
+
+						<ul class="space-y-3 pt-4">
+							<li
+								class="flex items-center gap-3 font-bold text-industry-800"
+							>
+								<i
+									class="fa-solid fa-check text-steelOrange-500"
+								></i>
+								%100 Orijinal Marka Garantisi
+							</li>
+							<li
+								class="flex items-center gap-3 font-bold text-industry-800"
+							>
+								<i
+									class="fa-solid fa-check text-steelOrange-500"
+								></i>
+								7/24 Teknik Destek ve Danışmanlık
+							</li>
+							<li
+								class="flex items-center gap-3 font-bold text-industry-800"
+							>
+								<i
+									class="fa-solid fa-check text-steelOrange-500"
+								></i>
+								Türkiye'nin Her Yerine Aynı Gün Kargo
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="products" class="py-24 bg-industry-50 fade-in">
+			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+				<div class="text-center mb-16">
+					<span
+						class="text-steelOrange-500 font-bold uppercase tracking-widest text-sm brand-font block mb-2"
+						>Kategoriler</span
+					>
+					<h2
+						class="text-3xl sm:text-4xl font-black text-industry-950 uppercase tracking-tight brand-font"
+					>
+						Geniş Ürün Yelpazesi
+					</h2>
+					<div class="w-24 h-1 bg-steelOrange-500 mx-auto mt-6"></div>
+				</div>
+
+				<div
+					class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
+				>
+					<div
+						class="bg-white rounded-lg shadow-md hover:shadow-2xl transition duration-300 overflow-hidden group border border-industry-100"
+					>
+						<div
+							class="h-64 overflow-hidden bg-industry-100 relative"
+						>
+							<img
+								src="assets/images/tek-sira-sabit-bilyali-rulman.webp"
+								alt="Yüksek Devirli Sabit Bilyalı Rulman Çeşitleri"
+								class="w-full h-full object-cover group-hover:scale-110 transition duration-500 grayscale group-hover:grayscale-0"
+							/>
+						</div>
+						<div
+							class="p-6 text-center border-t-4 border-transparent group-hover:border-steelOrange-500 transition"
+						>
+							<h3
+								class="text-xl font-bold text-industry-950 uppercase brand-font mb-2"
+							>
+								Bilyalı Rulmanlar
+							</h3>
+							<p class="text-industry-500 text-sm mb-4">
+								Yüksek hız gerektiren elektrik motorları ve
+								genel makine uygulamaları için ideal çözüm.
+							</p>
+							<a
+								href="#contact"
+								class="text-steelOrange-500 font-bold hover:text-industry-900 transition uppercase text-sm tracking-wide"
+							>
+								Fiyat Sor
+								<i class="fa-solid fa-arrow-right ml-1"></i>
+							</a>
+						</div>
+					</div>
+
+					<div
+						class="bg-white rounded-lg shadow-md hover:shadow-2xl transition duration-300 overflow-hidden group border border-industry-100"
+					>
+						<div
+							class="h-64 overflow-hidden bg-industry-100 relative"
+						>
+							<img
+								src="assets/images/konik-makarali-rulman-fag-timken.webp"
+								alt="Ağır Yük Tipi Konik Makaralı Rulman"
+								class="w-full h-full object-cover group-hover:scale-110 transition duration-500 grayscale group-hover:grayscale-0"
+							/>
+						</div>
+						<div
+							class="p-6 text-center border-t-4 border-transparent group-hover:border-steelOrange-500 transition"
+						>
+							<h3
+								class="text-xl font-bold text-industry-950 uppercase brand-font mb-2"
+							>
+								Makaralı Rulmanlar
+							</h3>
+							<p class="text-industry-500 text-sm mb-4">
+								Ağır radyal yüklerin bulunduğu sanayi tipi
+								redüktörler ve iş makineleri için güçlendirilmiş
+								yapı.
+							</p>
+							<a
+								href="#contact"
+								class="text-steelOrange-500 font-bold hover:text-industry-900 transition uppercase text-sm tracking-wide"
+							>
+								Fiyat Sor
+								<i class="fa-solid fa-arrow-right ml-1"></i>
+							</a>
+						</div>
+					</div>
+
+					<div
+						class="bg-white rounded-lg shadow-md hover:shadow-2xl transition duration-300 overflow-hidden group border border-industry-100"
+					>
+						<div
+							class="h-64 overflow-hidden bg-industry-100 relative"
+						>
+							<div
+								class="absolute top-4 right-4 bg-industry-950 text-white text-xs font-bold px-2 py-1 rounded z-10"
+							>
+								Çok Satan
+							</div>
+							<img
+								src="assets/images/oto-ve-sanayi-rulman-setleri.webp"
+								alt="Otomobil ve Motosiklet Teker Krank Rulman Setleri"
+								class="w-full h-full object-cover group-hover:scale-110 transition duration-500 grayscale group-hover:grayscale-0"
+							/>
+						</div>
+						<div
+							class="p-6 text-center border-t-4 border-transparent group-hover:border-steelOrange-500 transition"
+						>
+							<h3
+								class="text-xl font-bold text-industry-950 uppercase brand-font mb-2"
+							>
+								Oto & Motosiklet Rulmanları
+							</h3>
+							<p class="text-industry-500 text-sm mb-4">
+								Teker, krank ve şanzıman için yüksek devir
+								dayanımlı, motosiklet ve otomotiv özel serileri.
+							</p>
+							<a
+								href="#contact"
+								class="text-steelOrange-500 font-bold hover:text-industry-900 transition uppercase text-sm tracking-wide"
+							>
+								Fiyat Sor
+								<i class="fa-solid fa-arrow-right ml-1"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section
+			id="contact"
+			class="py-24 bg-industry-950 relative border-t-4 border-steelOrange-500 fade-in"
+		>
+			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+				<div
+					class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center"
+				>
+					<div class="space-y-8">
+						<div>
+							<span
+								class="text-steelOrange-500 font-bold uppercase tracking-widest text-sm brand-font block mb-2"
+								>İletişim</span
+							>
+							<h2
+								class="text-3xl sm:text-4xl font-black text-white uppercase tracking-tight brand-font"
+							>
+								Parça Mı Lazım? <br />Hemen Ulaşın!
+							</h2>
+							<div class="w-16 h-1 bg-steelOrange-500 mt-6"></div>
+						</div>
+
+						<p class="text-industry-400 text-lg">
+							Aradığınız ürünün ölçülerini veya numarasını (Örn:
+							6204 2RS) WhatsApp hattımızdan bize iletin, stok ve
+							fiyat bilgisini saniyeler içinde anında verelim.
+						</p>
+
+						<div class="pt-4">
+							<a
+								href="https://wa.me/905072420647?text=Merhaba,%20rulman%20fiyatlari%20ve%20stok%20durumu%20hakkinda%20bilgi%20almak%20istiyorum."
+								target="_blank"
+								class="inline-flex items-center gap-3 bg-[#25D366] hover:bg-[#1ebd5a] text-white px-8 py-4 rounded font-bold text-lg transition shadow-lg shadow-[#25D366]/30 uppercase brand-font"
+							>
+								<i class="fa-brands fa-whatsapp text-2xl"></i>
+								WhatsApp'tan Sor
+							</a>
+						</div>
+					</div>
+
+					<div class="space-y-6">
+						<div
+							class="bg-industry-900 p-8 rounded-lg border border-industry-800 shadow-2xl"
+						>
+							<h3
+								class="text-2xl font-bold text-white brand-font mb-6 border-b border-industry-800 pb-4"
+							>
+								MERKEZ ŞUBE
+							</h3>
+
+							<ul class="space-y-6 text-industry-300">
+								<li class="flex items-start gap-4">
+									<div
+										class="w-12 h-12 rounded-full bg-industry-800 flex items-center justify-center text-steelOrange-500 shrink-0"
+									>
+										<i
+											class="fa-solid fa-location-dot text-xl"
+										></i>
+									</div>
+									<div>
+										<span
+											class="block text-white font-bold mb-1"
+											>Adres:</span
+										>
+										<span
+											>Zafer mahallesi acenta d blok 4.
+											Sokak no:8, 59850<br />Çorlu/Tekirdağ</span
+										>
+									</div>
+								</li>
+								<li class="flex items-start gap-4">
+									<div
+										class="w-12 h-12 rounded-full bg-industry-800 flex items-center justify-center text-steelOrange-500 shrink-0"
+									>
+										<i
+											class="fa-solid fa-phone text-xl"
+										></i>
+									</div>
+									<div>
+										<span
+											class="block text-white font-bold mb-1"
+											>Telefon:</span
+										>
+										<a
+											href="tel:+905072420647"
+											class="hover:text-steelOrange-500 transition"
+											>+90 (507) 242 06 47</a
+										>
+									</div>
+								</li>
+								<li class="flex items-start gap-4">
+									<div
+										class="w-12 h-12 rounded-full bg-industry-800 flex items-center justify-center text-steelOrange-500 shrink-0"
+									>
+										<i
+											class="fa-solid fa-envelope text-xl"
+										></i>
+									</div>
+									<div>
+										<span
+											class="block text-white font-bold mb-1"
+											>E-Posta:</span
+										>
+										<a
+											href="mailto:karacarulman@hotmail.com"
+											class="hover:text-steelOrange-500 transition"
+											>karacarulman@hotmail.com</a
+										>
+									</div>
+								</li>
+							</ul>
+						</div>
+
+						<div
+							class="w-full h-64 rounded-lg overflow-hidden border border-industry-800 shadow-2xl"
+						>
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000.730248431874!2d27.840154076579296!3d41.14625221124317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a0e7b3c02144b1%3A0x3aeeefcda7c6c18b!2sKaraca%20rulman%20%C3%A7orlu!5e0!3m2!1str!2str!4v1717871234567!5m2!1str!2str"
+								class="w-full h-full border-0 hover:opacity-100 hover:grayscale-0 hover:invert-0 transition duration-500"
+								allowfullscreen
+							></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<script>
+			// Mobil Menü Tetikleyici
+			const menuBtn = document.getElementById("mobile-menu-btn");
+			const mobileMenu = document.getElementById("mobile-menu");
+			const mobileLinks = document.querySelectorAll(".mobile-link");
+
+			menuBtn.addEventListener("click", () => {
+				mobileMenu.classList.toggle("hidden");
+			});
+
+			// Linklerden birine basılınca mobil menüyü kapat
+			mobileLinks.forEach((link) => {
+				link.addEventListener("click", () => {
+					mobileMenu.classList.add("hidden");
+				});
+			});
+
+			// Sayfa Kaydırma Animasyonları (Intersection Observer)
+			const observer = new IntersectionObserver(
+				(entries) => {
+					entries.forEach((entry) => {
+						if (entry.isIntersecting) {
+							entry.target.classList.add("visible");
+						}
+					});
+				},
+				{ threshold: 0.1 },
+			);
+
+			document
+				.querySelectorAll(".fade-in")
+				.forEach((el) => observer.observe(el));
+		</script>
+	</body>
+</html>
